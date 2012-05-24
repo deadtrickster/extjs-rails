@@ -2,7 +2,7 @@
 require File.expand_path('../lib/extjs/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = "exjts-rails"
+  s.name = "extjs-rails"
   s.version = ExtJS::Rails::VERSION
   s.platform = Gem::Platform::RUBY
   s.authors = ["Ilya Khaprov"]
