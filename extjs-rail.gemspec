@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/jquery/rails/version', __FILE__)
+require File.expand_path('../lib/extjs/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name = "exjts-rails"
@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = ""
-
   s.add_dependency "railties", ">= 3.2.0", "< 5.0"
   s.add_dependency "therubyracer"
   s.add_dependency "compass"
