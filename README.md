@@ -16,7 +16,7 @@ gem "compass-rails"
 ```
 
 ``` css
-//= require ext-all
+//= require ext-all-dev
 ```
 # Many thanks to
 Andre Arko for jquery-rails
