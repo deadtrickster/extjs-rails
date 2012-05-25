@@ -12,10 +12,10 @@ gem "compass-rails"
 
 ``` js
 //= require ext-all
-
+```
 ``` css
 //= require ext-all
-
+```
 # Many thanks to
 Andre Arko for jquery-rails
 sencha.com team
