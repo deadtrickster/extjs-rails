@@ -2,13 +2,12 @@ module ExtJS
   module Rails
     class Engine < ::Rails::Engine
       
-      config.extjs.theme = 'default'
+      config.extjs_theme = 'default'
       
       initializer 'exttjs.theme_init_task',
-      :after => 'less-rails.after.load_config_initializers',
+      :after => 'sprockets.environment',
       :group => :all do |app|
-        environment = Sprockets::Environment.new
-        environment.append_path 'images/extjs/'+config.extjs.theme
+        app.config.assets.paths << File.expand_path('../../../../extjs/assets/images/'+config.extjs_theme, __FILE__)
       end
     end
   end
