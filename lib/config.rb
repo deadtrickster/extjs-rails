@@ -1,12 +1,12 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/assets/stylesheets"
+http_path = "/assets/extjs/stylesheets"
 $ext_path = "../vendor/assets"
-css_dir = "#{$exp_path}/stylesheets"
-sass_dir = "#{$exp_path}/stylesheets"
-images_dir = "#{$exp_path}/images"
-javascripts_dir = "#{$exp_path}/javascripts"
+css_dir = "#{$exp_path}/stylesheets/extjs"
+sass_dir = "#{$exp_path}/stylesheets/extjs"
+images_dir = "#{$exp_path}/images/extjs"
+javascripts_dir = "#{$exp_path}/javascripts/extjs"
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
