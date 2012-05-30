@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.authors = ["Ilya Khaprov"]
   s.email = ["mail@publitechs.com"]
-  s.homepage = ""
+  s.homepage = "https://github.com/deadtrickster/extjs-rails"
   s.summary = "Use ExtJS with Rails 3"
   s.description = "This gem provides EtxJS driver for your Rails 3 application."
 

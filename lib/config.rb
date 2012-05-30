@@ -5,7 +5,7 @@ http_path = "/assets/extjs/stylesheets"
 $ext_path = "../vendor/assets"
 css_dir = "#{$exp_path}/stylesheets/extjs"
 sass_dir = "#{$exp_path}/stylesheets/extjs"
-images_dir = "#{$exp_path}/images/extjs"
+images_dir = "../images/extjs"
 javascripts_dir = "#{$exp_path}/javascripts/extjs"
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
@@ -67,7 +67,7 @@ module ExtJS
           theme = theme.value
           without_url = (without_url.class == FalseClass) ? without_url : without_url.value
           
-          relative_path = "../images/"
+          relative_path = "../../../images/extjs/"
           
           if relative
             if relative.class == Sass::Script::String
