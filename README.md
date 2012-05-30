@@ -15,6 +15,11 @@ gem "compass-rails"
 //= require ext-all
 ```
 
+new option
+``` ruby
+config.extjs_theme
+```
+
 ``` css
 //= require ext-all-dev
 ```
