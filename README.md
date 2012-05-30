@@ -15,14 +15,17 @@ gem "compass-rails"
 //= require ext-all
 ```
 
-new option
+``` css
+//= require ext-all-dev
+```
+
+
+# Customization
+
 ``` ruby
 config.extjs_theme
 ```
 
-``` css
-//= require ext-all-dev
-```
 # Many thanks to
 Andre Arko for jquery-rails
 
