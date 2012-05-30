@@ -1,12 +1,12 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/assets/extjs/stylesheets"
+$http_path = "/assets"
 $ext_path = "../vendor/assets"
-css_dir = "#{$exp_path}/stylesheets/extjs"
-sass_dir = "#{$exp_path}/stylesheets/extjs"
+css_dir = "#{$ext_path}/stylesheets/extjs"
+sass_dir = "#{$ext_path}/stylesheets/extjs"
 images_dir = "../images/extjs"
-javascripts_dir = "#{$exp_path}/javascripts/extjs"
+javascripts_dir = "#{$ext_path}/javascripts/extjs"
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
@@ -65,9 +65,10 @@ module ExtJS
         def theme_image(theme, path, without_url = false, relative = false)
           path = path.value
           theme = theme.value
+          
           without_url = (without_url.class == FalseClass) ? without_url : without_url.value
           
-          relative_path = "../../../images/extjs/"
+          relative_path = File.expand_path('../../extjs/assets/images/'+theme, __FILE__)
           
           if relative
             if relative.class == Sass::Script::String
@@ -85,7 +86,7 @@ module ExtJS
           if relative
             image_path = File.join(relative_path, theme, path)
           else
-            images_path = File.join($ext_path, 'images', theme)
+            images_path = File.join($http_path, 'extjs')
             image_path = File.join(images_path, path)
           end
           
