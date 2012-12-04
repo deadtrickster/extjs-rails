@@ -4,7 +4,7 @@ This gem provides:
 
 * ExtJS 4.1
 
-Perfeclty works with rails assets pipeline
+Perfectly works with rails assets pipeline
 
 # Installation
 gem "extjs-rails"
