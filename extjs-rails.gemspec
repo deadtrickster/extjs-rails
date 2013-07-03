@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = ["mail@publitechs.com"]
   s.homepage = "https://github.com/deadtrickster/extjs-rails"
   s.summary = "Use ExtJS with Rails 3"
-  s.description = "This gem provides EtxJS driver for your Rails 3 application."
+  s.description = "This gem provides ExtJS driver for your Rails 3 application."
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = ""
