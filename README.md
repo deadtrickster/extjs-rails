@@ -2,7 +2,7 @@
 
 This gem provides:
 
-* ExtJS 4.1
+* ExtJS 4.2
 
 Perfectly works with rails assets pipeline
 
@@ -37,4 +37,4 @@ ExtJS licensed under GPLv3
 
 So this gem too
 
- 
+
